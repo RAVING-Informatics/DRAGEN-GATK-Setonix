@@ -1,12 +1,12 @@
 #!/bin/bash -l 
 #SBATCH --job-name=DRAGEN_test
 #SBATCH --account=pawsey0848
-#SBATCH --partition=debug
+#SBATCH --partition=work
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=20G
 #SBATCH --nodes=1
-#SBATCH --time=01:00:00
+#SBATCH --time=10:00:00
 #SBATCH --mail-user=gavin.monahan@pawsey.org.au
 #SBATCH --mail-type=END
 #SBATCH --error=%j.%x.err
