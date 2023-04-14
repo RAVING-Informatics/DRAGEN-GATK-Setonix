@@ -27,8 +27,8 @@ Mostly relying on modules where available (see `run_DRAGEN.sh`). Only DRAGEN and
 5. `git init`
 5. `wget https://github.com/broadinstitute/warp/archive/refs/tags/WholeGenomeGermlineSingleSample_v3.1.10.tar.gz`
 6. `tar -xzvf WholeGenomeGermlineSingleSample_v3.1.10.tar.gz`
-7. Download masked reference genome (not in scratch references, actually already in sv pipeline references)
-    `conda activate gsutil`
+7. Download masked reference genome (not in scratch references, actually already in sv pipeline references) \
+    `conda activate gsutil` \
     `gsutil -m cp gs://gcp-public-data--broad-references/hg38/v0/dragen_reference/Homo_sapiens_assembly38_masked.* .`
 9. `conda create -n gatk -c bioconda dragen picard`
 10. Make SLURM script, add `module load`s and `conda activate gatk`
