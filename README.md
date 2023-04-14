@@ -14,8 +14,9 @@ Uses the DRAGEN maked hg38 reference genome (Homo_sapiens_assembly38_masked.fast
 - [ ] Add joint calling?
 - [ ] BAM/CRAM out after haplotyping?
 - [ ] Remove haplotype calling if not processing to joint calling?
-- [ ] Check Group folder/file permissions
+- [ ] Check Group folder/file permissions @Chiara
 - [ ] Bump GATK to 4.3.0.0 - WholeGenomeGermlineSingleSample 3.1.10 requires 4.3.0.0, currently using 4.2.5.0 Pawsey module
+- [ ] Check if using DRAGEN or BWA-mem
  
 ## Installation (already done)
 Mostly relying on modules where available (see `run_DRAGEN.sh`). Only DRAGEN and Picard had to be installed with conda
