@@ -59,7 +59,7 @@ workflow WholeGenomeGermlineSingleSample {
     Boolean use_gatk3_haplotype_caller = true
 
     Boolean dragen_functional_equivalence_mode = false
-    Boolean dragen_maximum_quality_mode = false
+    Boolean dragen_maximum_quality_mode = true
 
     Boolean run_dragen_mode_variant_calling = false
     Boolean use_spanning_event_genotyping = true
