@@ -1,0 +1,5 @@
+{
+    "final_workflow_outputs_dir": "/scratch/pawsey0848/gatk/",
+    "final_workflow_log_dir": "/scratch/pawsey0848/gatk/",
+    "final_call_logs_dir": "/scratch/pawsey0848/gatk/"
+}
